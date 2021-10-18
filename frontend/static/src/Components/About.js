@@ -31,7 +31,7 @@ class About extends Component {
       {socialMediaLinks}
        <h1 style={{marginTop: "5vh"}}>About Us:</h1>
        <p>Hi! This is where the ABOUT US information will go! It will be informative and entertaining
-         and will touch the heart. Add new information.
+         and will touch the heart. Add new information again.
        </p>
     </div>
   );
