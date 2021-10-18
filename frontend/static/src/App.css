@@ -1,0 +1,135 @@
+.App {
+  font-family: Gotham, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bottomNav{
+  background-color: #8B8B00;
+  /* background-image: linear-gradient(to right, #8B8B00, #EEAD0E); */
+  margin-bottom: 0;
+  color: #EE7600;
+}
+
+.bottomNav a{
+  color: #EE7600;
+}
+
+
+.container{
+  text-align: center;
+  min-height: 100vh;
+}
+
+.frontSplash{
+  min-height: 80vh;
+  /* background-color: #f4a127; */
+  padding-bottom: 3vh;
+  /* padding-left: 0 !important;
+  padding-right: 0 !important; */
+}
+
+.homeText{
+  margin-top: 2vh;
+}
+
+.input-window{
+  display: block;
+  width: 90%;
+}
+
+.menuCard{
+  background-color: #EEAD0E;
+  box-shadow: 2px 2px 2px lightgray;
+  margin-top: 2vh;
+  padding: 0 0 1vh 0;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.navRow a{
+  color: #f60d0d;
+}
+
+.navRow a:active{
+  color: white;
+  text-decoration: none;
+}
+
+.navRow a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.navRow{
+  background-image: linear-gradient(to right, #75C8AE, #ffecb4);
+  width: 100%;
+  font-size: large;
+}
+
+.splashPhoto{
+  max-width: 100%;
+  margin-top: 5vh;
+}
+
+.titleBanner{
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.titleRow{
+  background-image: linear-gradient(to right, #EE7600, #EEAD0E);
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+button{
+  background-color: #75C8AE;
+  border-radius: 5px !important;
+  border-style: none !important;
+  padding-top: 10px;
+  box-shadow: 2px 2px 2px #DBFFFF;
+}
+
+button.dropdown-toggle::after{
+  content: none;
+}
+
+form{
+  text-align: left;
+}
+
+h1{
+  margin: 0 auto;
+}
+
+@media (orientation: portrait){
+ 
+  .navLinks{
+    content-visibility: hidden;
+    visibility: hidden;
+    display: none;
+  }
+}
+
+
+@media (min-width: 800px){
+
+.burgerMenu{
+  display: none;
+}
+
+.input-window{
+  width: 50%;
+}
+.menuCard{
+  display:inline-block;
+  width: 30%;
+  height: 500px;
+  margin: 10px;
+}
+
+.menuCard img{
+  height: 300px;
+  object-fit: cover;
+}
+}
