@@ -65,9 +65,19 @@
   font-size: large;
 }
 
+.overSplashText{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-size: xxx-large;
+  color: white;
+  font-weight:400;
+}
+
 .splashPhoto{
   max-width: 100%;
-  margin-top: 5vh;
+  margin-top: 2vh;
+  position: relative;
 }
 
 .titleBanner{
@@ -132,4 +142,11 @@ h1{
   height: 300px;
   object-fit: cover;
 }
+
+.splashPhoto{
+  object-fit: cover;
+  width: 100vw;
+  padding: 0;
+}
+
 }
