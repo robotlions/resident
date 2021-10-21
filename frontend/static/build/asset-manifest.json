@@ -1,28 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.045e7bb4.chunk.css",
-    "main.js": "/static/js/main.b2685a30.chunk.js",
-    "main.js.map": "/static/js/main.b2685a30.chunk.js.map",
+    "main.css": "/static/css/main.d16138e1.chunk.css",
+    "main.js": "/static/js/main.316e34ed.chunk.js",
+    "main.js.map": "/static/js/main.316e34ed.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.17b4e727.js",
     "runtime-main.js.map": "/static/js/runtime-main.17b4e727.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.f65ff118.chunk.js": "/static/js/2.f65ff118.chunk.js",
-    "static/js/2.f65ff118.chunk.js.map": "/static/js/2.f65ff118.chunk.js.map",
+    "static/js/2.68843bea.chunk.js": "/static/js/2.68843bea.chunk.js",
+    "static/js/2.68843bea.chunk.js.map": "/static/js/2.68843bea.chunk.js.map",
     "static/js/3.e5a741bf.chunk.js": "/static/js/3.e5a741bf.chunk.js",
     "static/js/3.e5a741bf.chunk.js.map": "/static/js/3.e5a741bf.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.045e7bb4.chunk.css.map": "/static/css/main.045e7bb4.chunk.css.map",
-    "static/js/2.f65ff118.chunk.js.LICENSE.txt": "/static/js/2.f65ff118.chunk.js.LICENSE.txt",
+    "static/css/main.d16138e1.chunk.css.map": "/static/css/main.d16138e1.chunk.css.map",
+    "static/js/2.68843bea.chunk.js.LICENSE.txt": "/static/js/2.68843bea.chunk.js.LICENSE.txt",
     "static/media/About.css": "/static/media/about.355929c3.JPEG",
+    "static/media/about2.8fb54186.png": "/static/media/about2.8fb54186.png",
     "static/media/bannerlg.96032a49.png": "/static/media/bannerlg.96032a49.png",
-    "static/media/feast.556e0f95.JPEG": "/static/media/feast.556e0f95.JPEG"
+    "static/media/catering4.fb740d44.png": "/static/media/catering4.fb740d44.png",
+    "static/media/location3.c2c4375b.png": "/static/media/location3.c2c4375b.png",
+    "static/media/menu01.e74f0cd1.png": "/static/media/menu01.e74f0cd1.png",
+    "static/media/merch5.aa2fdbc1.png": "/static/media/merch5.aa2fdbc1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.17b4e727.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.f65ff118.chunk.js",
-    "static/css/main.045e7bb4.chunk.css",
-    "static/js/main.b2685a30.chunk.js"
+    "static/js/2.68843bea.chunk.js",
+    "static/css/main.d16138e1.chunk.css",
+    "static/js/main.316e34ed.chunk.js"
   ]
 }

@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'resident-test.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'database-1.cxkgxlk7wncr.us-east-1.rds.amazonaws.com']
 
 
 # Application definition
@@ -104,6 +104,19 @@ else:
            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
        }
    }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'database-1',
+#         'USER': 'postgres',
+#         'PASSWORD': '25Or6to4',
+#         'PORT': '5432',
+#         'HOST': 'database-1.cxkgxlk7wncr.us-east-1.rds.amazonaws.com'
+
+#     }
+# }
+
 
 
 # Password validation

@@ -3,14 +3,17 @@
 }
 
 .bottomNav{
-  background-color: #8B8B00;
+  color: #8B8B00;
+  background-image: linear-gradient(to right, #EE7600, #EEAD0E);
+  /* background-color: #EE7600; */
+  /* background-color: #8B8B00; */
   /* background-image: linear-gradient(to right, #8B8B00, #EEAD0E); */
   margin-bottom: 0;
-  color: #EE7600;
+  
 }
 
 .bottomNav a{
-  color: #EE7600;
+  color: #8B8B00;
 }
 
 
