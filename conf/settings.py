@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'app-a8e5a445-a690-4096-afae-763f48e10638-do-user-9037890-0.b.db.ondigitalocean.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'app-a8e5a445-a690-4096-afae-763f48e10638-do-user-9037890-0.b.db.ondigitalocean.com', 'resident-qgmsw.ondigitalocean.app']
 
 
 # Application definition
