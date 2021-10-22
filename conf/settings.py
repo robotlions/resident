@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'database-1.cxkgxlk7wncr.us-east-1.rds.amazonaws.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'app-a8e5a445-a690-4096-afae-763f48e10638-do-user-9037890-0.b.db.ondigitalocean.com']
 
 
 # Application definition
@@ -107,12 +107,12 @@ else:
 
 # DATABASES = {
 #     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'database-1',
-#         'USER': 'postgres',
-#         'PASSWORD': '25Or6to4',
-#         'PORT': '5432',
-#         'HOST': 'database-1.cxkgxlk7wncr.us-east-1.rds.amazonaws.com'
+#         'HOST': 'app-a8e5a445-a690-4096-afae-763f48e10638-do-user-9037890-0.b.db.ondigitalocean.com',
+#         'PORT': '25060',
+#         'USERNAME' : 'db',
+#         'PASSWORD' : '3x19SQyDK0bEjvci',
+#         'DATABASE' : 'db',
+#         'SSLMODE'  : 'require',
 
 #     }
 # }
