@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'resident-ouatx.ondigitalocean.app', 'app-48b214e9-9518-4560-98b7-3357d44c45a2-do-user-9037890-0.b.db.ondigitalocean.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'resident-test.herokuapp.com']
 
 # Application definition
 
