@@ -26,7 +26,7 @@ def contact(request):
         }
 
     message = "\n".join(body.values())
-    send_mail('subject', message, 'admin@example.com', ['admin@example.com'])
+    send_mail('subject', message, 'chadmusick@gmail.com', ['chadmusick@gmail.com'])
     return HttpResponse('Sent')
 
 
